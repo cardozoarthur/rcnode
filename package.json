@@ -1,12 +1,12 @@
 {
-  "name": "redecoin_sdk_unofficial",
+  "name": "redecoin_sdk",
   "main": "dist/index.umd.min.js",
   "module": "dist/index.es.js",
   "types": "dist/**.d.ts",
   "files": [
     "dist"
   ],
-  "version": "0.1.1",
+  "version": "0.0.1",
   "repository": "git@github.com:cardozoarthur/rcnode.git",
   "author": "Arthur Cardozo <arthurgfcardozo@gmail.com>",
   "license": "LICENCE",
