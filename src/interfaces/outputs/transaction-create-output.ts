@@ -1,4 +1,4 @@
-import { CryptocurrencyOpts } from '../inputs/currency-input.interface';
+import { CryptocurrencyOpts } from '../inputs/currency-input';
 
 export default interface ITransactionCreateOutput {
     cryptocurrency: CryptocurrencyOpts;

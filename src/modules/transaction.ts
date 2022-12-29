@@ -1,13 +1,13 @@
 import { v4 as uuid } from 'uuid';
 import api from '../api';
-import ITransactionCancelInput from '../interfaces/inputs/transaction-cancel-input.interface';
-import ITransactionCreateInput from '../interfaces/inputs/transaction-create-input.interface';
-import ITransactionListInput from '../interfaces/inputs/transaction-list-input.interface';
-import ITransactionQuotationInput from '../interfaces/inputs/transaction-quotation-input.interface';
-import IBaseOutput from '../interfaces/outputs/base-output.interface';
-import ITransactionCreateOutput from '../interfaces/outputs/transaction-create-output.interface';
-import ITransactionListOutput from '../interfaces/outputs/transaction-list-output.interface';
-import ITransactionQuotationOutput from '../interfaces/outputs/transaction-quotation-output.interface';
+import ITransactionCancelInput from '../interfaces/inputs/transaction-cancel-input';
+import ITransactionCreateInput from '../interfaces/inputs/transaction-create-input';
+import ITransactionListInput from '../interfaces/inputs/transaction-list-input';
+import ITransactionQuotationInput from '../interfaces/inputs/transaction-quotation-input';
+import IBaseOutput from '../interfaces/outputs/base-output';
+import ITransactionCreateOutput from '../interfaces/outputs/transaction-create-output';
+import ITransactionListOutput from '../interfaces/outputs/transaction-list-output';
+import ITransactionQuotationOutput from '../interfaces/outputs/transaction-quotation-output';
 
 export default class Transaction {
     private _token: string;

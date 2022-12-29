@@ -1,4 +1,4 @@
-import IConfigInput from "./interfaces/inputs/config-input.interface";
+import IConfigInput from "./interfaces/inputs/config-input";
 import Cryptocurrency from "./modules/cryptocurrency";
 import Transaction from "./modules/transaction";
 

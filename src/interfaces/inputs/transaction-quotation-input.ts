@@ -1,4 +1,4 @@
-import { CryptocurrencyOpts, CurrencyOpts } from './currency-input.interface';
+import { CryptocurrencyOpts, CurrencyOpts } from './currency-input';
 
 export default interface ITransactionQuotationInput {
     baseCurrency: CurrencyOpts;

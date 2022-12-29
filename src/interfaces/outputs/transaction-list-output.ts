@@ -1,4 +1,4 @@
-import { CryptocurrencyOpts, CurrencyOpts } from '../inputs/currency-input.interface';
+import { CryptocurrencyOpts, CurrencyOpts } from '../inputs/currency-input';
 
 export default interface ITransactionListOutput {
     company_id: number;

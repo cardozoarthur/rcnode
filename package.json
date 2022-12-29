@@ -2,7 +2,7 @@
   "name": "redecoin_sdk",
   "main": "dist/index.umd.min.js",
   "module": "dist/index.es.js",
-  "types": "dist/**.d.ts",
+  "types": "dist/main.d.ts",
   "files": [
     "dist"
   ],
