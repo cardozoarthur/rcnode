@@ -1,0 +1,28 @@
+{
+  "name": "redecoin_sdk_unofficial",
+  "main": "dist/index.umd.min.js",
+  "module": "dist/index.es.js",
+  "types": "dist/**.d.ts",
+  "files": [
+    "dist"
+  ],
+  "version": "0.1.1",
+  "repository": "git@github.com:cardozoarthur/rcnode.git",
+  "author": "Arthur Cardozo <arthurgfcardozo@gmail.com>",
+  "license": "LICENCE",
+  "private": false,
+  "devDependencies": {
+    "@babel/core": "^7.20.7",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@types/axios": "^0.14.0",
+    "@types/uuid": "^9.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "axios": "^1.2.2",
+    "uuid": "^9.0.0"
+  }
+}
